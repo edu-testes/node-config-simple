@@ -18,6 +18,7 @@ if (!parsed.values.config) {
 // const file = await fs.readFile(parsed.values.config, 'utf-8')
 // const data = JSON.parse(file)
 
+//const file = await import('file://' + parsed.values.config, { assert: { type: 'json' }});
 const file = await import(parsed.values.config, { assert: { type: 'json' }});
 
 // console.log(data)
