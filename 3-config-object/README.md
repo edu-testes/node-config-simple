@@ -1,5 +1,5 @@
 # Example
 
 ```bash
-$ node --env-file dotenv/.env env-1/cmd.js -n Matteo
+$ node --env-file 3-config-object/.env 3-config-object/index.js -n Matteo
 ```
